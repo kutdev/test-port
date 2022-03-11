@@ -1,0 +1,125 @@
+body{
+    background-color: #E7E8E7;
+}
+.logo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin: 10px 0 0 10px;
+    color: #474143;
+}
+#menu{
+    float: right;
+}
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+ }
+ .text-uppercase{
+     text-transform: uppercase;
+ }
+ .menu-item a{
+     text-decoration: none;
+     color: #474143;
+     font-weight: 600;
+     transition: all .7s;
+ }
+ .menu-item a:hover{
+     color: #FFFFFF;
+     transition: all .7s;
+ }
+ .menu-item{
+     list-style-type: none;
+     list-style: none;
+     display: inline-block;
+     letter-spacing: .4px;
+     margin-right: 10px;
+     font-size: 20px;
+     font-family: 'Poppins', sans-serif;
+ }
+ #menu ul{
+     list-style: none;
+     display: inline-block;
+ }
+ .welcome{
+     font-family: 'Poppins', sans-serif;
+     font-weight: 700;
+     font-size: 50px;
+     color: #474143;
+ }
+ #header{
+     margin-left: 60px;
+     margin-top:70px;
+ }
+
+ .wave {
+    animation-name: wave-animation;  
+    animation-duration: 2.5s;        
+    animation-iteration-count: infinite;  
+    transform-origin: 70% 70%;       
+    display: inline-block;
+    font-size: 50px;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  
+    100% { transform: rotate( 0.0deg) }
+  }
+  
+  
+  
+  
+
+
+
+
+
+  .card {
+    width: 100%;
+    max-width: 22rem;
+    min-height: 14rem;
+    position: relative;
+    background-color: #E7E2DA;
+  }
+  
+  .card__title {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  .card--basic {
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 0.25rem rgba(0, 0, 0, 0.08),
+      0 2rem 1.25rem -1.5rem rgba(0, 0, 0, 0.12);
+  }
+  .container h2 {
+    
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .container {
+    height: 24rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 1rem;
+    margin-top: 50px;
+    
+  }
+  .container-top{
+      margin-top: 100px;
+      
+  }
+  .container p{
+      font-family: 'Poppins', sans-serif;
+  }
