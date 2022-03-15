@@ -1,0 +1,117 @@
+body{
+    background-color: #E7E8E7;
+}
+.logo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin: 10px 0 0 10px;
+    color: #474143;
+}
+#menu{
+    float: right;
+}
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+ }
+ .text-uppercase{
+     text-transform: uppercase;
+ }
+ .menu-item a{
+     text-decoration: none;
+     color: #474143;
+     font-weight: 600;
+     transition: all .7s;
+ }
+ .menu-item a:hover{
+     color: #FFFFFF;
+     transition: all .7s;
+ }
+ .menu-item{
+     list-style-type: none;
+     list-style: none;
+     display: inline-block;
+     letter-spacing: .4px;
+     margin-right: 10px;
+     font-size: 20px;
+     font-family: 'Poppins', sans-serif;
+ }
+ #menu ul{
+     list-style: none;
+     display: inline-block;
+ }
+
+
+ 
+  
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap");
+  
+
+  
+  .profile-card {
+      margin-top: 200px;
+    position: relative;
+    background-color: #fff;
+    width: 20rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 1.5rem 2rem -1.2rem rgba(0, 0, 0, 0.15);
+    padding: 8rem 1rem 1rem;
+    margin-bottom: 100px;
+  }
+  
+  .profile-card:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 55%;
+    background-image: url("images/image0.png");
+    position: absolute;
+    border-radius: 1.4rem 1.4rem 8rem 8rem;
+    top: 0;
+    left: 0;
+  }
+  
+  .profile-card__info {
+      font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .profile-card__avatar {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    width: 12rem;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.75),
+      0 1rem 1rem -0.5rem rgba(0, 0, 0, 0.3);
+    margin: 0 0 1rem;
+  }
+  
+  .profile-card__name {
+    font-weight: 300;
+    font-size: 2.2rem;
+    margin: 1rem 0;
+    color: #1f1f1f;
+  }
+  
+  .profile-card__job {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 0 0 1rem;
+  }
+  .link{
+      font-family: 'Poppins', sans-serif;
+      
+  }
+  #links{
+    margin-top: 30px;
+    font-size: 30px;
+    
+  }
+  .links-1 {
+    margin-right: 20px;
+  }
+  
