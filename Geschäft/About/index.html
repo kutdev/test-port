@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/8b60c2687b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Geschäft</title>
+</head>
+<body>
+    <div id="back">
+        
+        <a href="/index.html"><i class="fa-solid fa-angle-left"></i></a>
+    </div>
+    <div id="title">
+        <h5 class="header-text">About Geschäft</h5>
+        <h1 class="text-uppercase">
+            Choose Language
+        </h1>
+    </div>
+    <div id="buttons">
+        <button class="text-uppercase" onclick="turkish()">TR</button><br>
+        <button class="text-uppercase" onclick="german()">DE</button>
+    </div>
+    <div id="sign">
+        <p>Developed and Designed by <a href="https://kutdev.online">KutDev</a> with <i class="fa-solid fa-heart"></i></p>
+    </div>
+    <script>
+        function german(){
+            window.location = "deabout.html";
+        }
+        function turkish(){
+            window.location = "trabout.html";
+        }
+    </script>
+</body>
+</html>

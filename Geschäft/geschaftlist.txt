@@ -1,0 +1,47 @@
+İstenen Ürünler*
+Deri ceket
+pamuk ceket
+pamuk kazak
+deri eldiven
+deri ayakkabı
+pamuk çorap
+güneş gözlüğü
+lastik
+araba
+
+malzemeler*
+pamuk
+dikiş makinesi
+astar
+fermuar
+kalıp
+makas
+cam
+yapıştırıcı
+vida
+plastik
+press makinesi
+
+yapım malzemeleri*
+Deri ceket = deri astar fermuar dikişmakinesi
+pamuk ceket = pamuk astar fermuar dikişmakinesi 
+pamuk kazak = pamuk dikişmakinesi
+deri eldiven = makas deri dikişmakinesi
+deri ayakkabı = kalıp makas deri
+pamuk çorap = pamuk dikişmakinesi
+güneş gözülüğü = plastik vida cam 
+lastik = plastik pressmakinesi
+araba = lastik deri cam dikişmakinesi pressmakinesi vida
+
+isimler*
+ERKEK
+albert
+johan
+carl
+klaus
+leo
+KADIN
+zelda
+verena
+ulrica
+suzanne
