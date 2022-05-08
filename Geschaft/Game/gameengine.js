@@ -101,7 +101,7 @@ var press_stor = 0;
 var name_input = document.getElementById("name");
 var name_submit = document.getElementById("submit-button");
 var money_text = document.getElementById("money-text");
-var money = 3000000000;
+var money = 300;
 var maxprice = 105;
 var minprice = 65;
 
