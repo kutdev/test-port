@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient( 135deg, #69FF97 10%, #00E4FF 100%);
+    height: 100%;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+#title{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+#title h1{
+    font-size: 50px;
+}
+#title i{
+    font-size: 30px;
+}
+#title a{
+    font-family: 'Poppins', sans-serif;
+    color: #EAF2CE;
+}
+#play {
+    text-align: center;
+    margin-top: 150px;
+}
+#play button{
+    width: 200px;
+    margin-top: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: black;
+    font-size: 30px;
+    transition: all 3s;
+}
+#play button:hover{
+    background-color: black;
+    color: white;
+    transition: all 2s;
+}
+.header-text {  
+    animation: shake 1s infinite;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+  #title h5{
+      font-size: 20px;
+  }
+  #version{
+      position: absolute;
+      bottom: 0;
+      font-family: 'Poppins', sans-serif;
+  }
