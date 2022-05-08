@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <link rel="stylesheet" href="gamestyle.css">
+    <script src="https://kit.fontawesome.com/8b60c2687b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="sweetalert2.min.js"></script>
+<link rel="stylesheet" href="sweetalert2.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geschäft Game</title>
+</head>
+<body>
+    <i onclick="items()"class="icon-s fa-solid fa-box-archive"></i>
+         <i onclick="market()"class="icon-s fa-solid fa-shop"></i>
+         <i onclick="workshop()"class="icon-s fa-solid fa-hammer"></i>
+         <i onclick="storage()" class="icon-s fa-solid fa-arrows-down-to-line"></i>
+         
+    <div id="name-input">
+        <h2 id="name-text">Beginnen wir damit, Ihren Namen zu nehmen </h2> 
+        <h3 id="money-text"></h3>
+        <input class="input-name" type="text" id="name" placeholder="Wie heißt du?"> 
+         
+        <br><input onclick="submit()" class="button" id="submit-button" type="submit" value="Ok">
+    </div>
+    
+    <center>
+    <div id="inventory" ondblclick="footer()">
+        <h1> Inventar</h1>
+        <ul>
+            <li id="makinei">Nähmaschine (Dikiş Makinesi)</li>
+            <li id="pamuki">Baumwolle (Pamuk)</li>
+            <li id="fermi">Reißverschluss (Fermuar)</li>
+            <li id="astari">der Futterstoff (Astar)</li>
+            <li id="kapi">Schuhform (Ayakkabı Kalıbı)</li>
+            <li id="makasi">Schere(Makas)</li>
+            <li id="derii">das Balg(Deri)</li>
+            <li id="vidai">Schraube(Vida)</li>
+            <li id="cami">Kiefer(Cam)</li>
+            <li id="plastii">Plastik(Plastik)</li>
+            <li id="metali">Metall(Metal)</li>
+            <li id="pressi">Pressmaschine(Press)</li>
+            <li id="titani">Titan(Titanyum) €1000 <button onclick="buytitan()">Buy</button></li>
+            <li id="bakiri">Kupfer(Bakır) €1200 <button onclick="buybakir()">Buy</button></li>
+        </ul>
+    </div></center>
+    <center>
+        <div id="market">
+            <h1> Markt</h1>
+            <ul>
+                <li id="makine">Nähmaschine (Dikiş Makinesi) €170 <button onclick="buymakine()">Buy</button></li>
+                <li id="pamuk">Baumwolle (Pamuk) €20 <button onclick="buypamuk()">Buy</button></li>
+                <li id="ferm">Reißverschluss (Fermuar) €50 <button onclick="buyferm()">Buy</button></li>
+                <li id="astar">der Futterstoff (Astar) €30 <button onclick="buyastar()">Buy</button></li>
+                <li id="kap">Schuhform (Ayakkabı Kalıbı) €45 <button onclick="buykap()">Buy</button></li>
+                <li id="makas">Schere(Makas) €40 <button onclick="buymakas()">Buy</button></li>
+                <li id="deri">das Balg(Deri) €65 <button onclick="buyderi()">Buy</button></li>
+                <li id="vida">Schraube(Vida) €100 <button onclick="buyvida()">Buy</button></li>
+                <li id="cam">Kiefer(Cam) €250 <button onclick="buycam()">Buy</button></li>
+                <li id="plasti">Plastik(Plastik) €270 <button onclick="buyplasti()">Buy</button></li>
+                <li id="metal">Metall(Metal) €500 <button onclick="buymetal()">Buy</button></li>
+                <li id="press">Pressmaschine(Press) €530 <button onclick="buypress()">Buy</button></li>
+                <li id="titan">Titan(Titanyum) €1000 <button onclick="buytitan()">Buy</button></li>
+                <li id="bakir">Kupfer(Bakır) €1200 <button onclick="buybakir()">Buy</button></li>
+            </ul>
+        </div></center>
+        <center>
+            <div id="workshop">
+                <h1>Werkstatt</h1>
+                <ul>
+                    <li id="ceket">Lederjacke (Deri Ceket)<br><button onclick="craftdcek()">Handwerk</button></li>
+                    <li id="pceket">Baumwolljacke (Pamuk Ceket)<br><button onclick="craftpcek()">Handwerk</button></li>
+                    <li id="kazak">Pullover aus Baumwolle(Pamuk Kazak)<br><button onclick="craftkazak()">Handwerk</button></li>
+                    <li id="deriel">Lederhandschuh (Deri Eldiven)<br><button onclick="craftderiel()">Handwerk</button></li>
+                    <li id="deriay">Lederschuhe (Deri Ayakkabı)<br><button onclick="craftderiay()">Handwerk</button></li>
+                    <li id="corap">Baumwollsocken(Pamuk Çorap)<br><button onclick="craftcorap()">Handwerk</button></li>
+                    <li id="gozluk">Sonnenbrille(Güneş Gözlüğü)<br><button onclick="craftgoz()">Handwerk</button></li>
+                    <li id="lastik">Reifen(Lastik)<br><button onclick="craftlas()">Handwerk</button></li>
+                    <li id="araba">Auto(Araba)<br><button onclick="craftar()">Handwerk</button></li>
+                    <li id="tir">Lastwagen(Tır)<br><button onclick="crafttir()">Handwerk</button></li>
+                    <li id="pcam">Plexiglas(Plastik Cam)<br><button onclick="craftpcam()">Handwerk</button></li>
+                    <li id="gemi">Boot(Gemi)<br><button onclick="craftgemi()">Handwerk</button></li>
+                    
+                </ul>
+            </div></center>
+            <center>
+                <div id="storage">
+                    <h1>Werkstattprodukte </h1>
+                    <ul>
+                        <li id="ceketl">Lederjacke (Deri Ceket)</li>
+                        <li id="pceketl">Baumwolljacke (Pamuk Ceket)</li>
+                        <li id="kazakl">Pullover aus Baumwolle(Pamuk Kazak)</li>
+                        <li id="deriell">Lederhandschuh (Deri Eldiven)</li>
+                        <li id="deriayl">Lederschuhe (Deri Ayakkabı)</li>
+                        <li id="corapl">Baumwollsocken(Pamuk Çorap)</li>
+                        <li id="gozlukl">Sonnenbrille(Güneş Gözlüğü)</li>
+                        <li id="lastikl">Reifen(Lastik)</li>
+                        <li id="arabal">Auto(Araba)</li>
+                        <li id="tirl">Lastwagen(Tır)</li>
+                        <li id="pcaml">Plexiglas(Plastik Cam)</li>
+                        <li id="gemil">Boot(Gemi)</li>
+                        
+                    </ul>
+                </div></center>
+        <div id="customers">
+            <h1 id="name">Kunden <i onclick="refresh_cust()" class="icon-s fa-solid fa-arrows-rotate"></i></h1>
+            
+            <div class="customer" id="customer1">
+                
+            </div>
+            <div class="customer" id="customer2">
+                
+            
+            
+        </div>
+
+    </div>
+    <script src="gameengine.js"></script>
+    <script>
+        
+    </script>
+
+</body>
+</html>
