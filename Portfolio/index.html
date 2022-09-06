@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="theme-color" content="#5DFFAD">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="https://kit.fontawesome.com/4cb5ded24e.js" crossorigin="anonymous"></script>
+    <title>Portfolio KutDev</title>
+</head>
+<body>
+    <section id="top-menu">
+        <div id="logo-box">
+            <h1>Portfolio</h1>
+            <p>KutDev</p>
+        </div>
+    </section>
+    <div id="header">
+        <p class="upperHeader">Welcome to</p>
+        <h1 class="header">Portfolio of  <span>KutDev</span></h1>
+        <ul id="siteMenu">
+            <li><a href="https://kutdev.online">Main Page</a></li>
+            <li><a href="/About/">About Me</a></li>
+        </ul>
+    </div>
+    <p class="alert">Please note that these projects are just few of my projects. In total, I have more than 70 projects.</p>
+    <div id="portfolio">
+        <div id="card">
+            <h2>FridgeInfo Home Systems</h2>
+            <i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3-alt"></i><i class="fa-brands fa-js"></i>
+            <br><a target="_blank" href="https://fridgeinfo.online">Link</a>
+        </div>
+        <div id="card">
+            <h2>AstroCalc.</h2>
+            <p class="alert">IN DEVELOPMENT</p>
+            <i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3-alt"></i><i class="fa-brands fa-js"></i>
+            <br><a target="_blank" href="https://kutdev.github.io/AstroCalc.">Link</a>
+        </div>
+        <div id="card">
+            <h2>IntCap Education</h2>
+            <p class="alert">Develoment Not Finished (paused)</p>
+            <i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3-alt"></i><i class="fa-brands fa-js"></i><i class="fa-brands fa-php"></i><i class="fa-solid fa-database"></i>
+            <br><a target="_blank" href="https://intcap.online">Link</a>
+        </div>
+        <div id="card">
+            <h2>Apoyo Artifical Intelligence</h2>
+            <i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3-alt"></i><i class="fa-brands fa-js"></i><i class="fa-brands fa-php"></i><i class="fa-solid fa-database"></i>
+        </div>
+        <div id="card">
+            <h2>Geschäft Web Trade Game</h2>
+            <i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3-alt"></i><i class="fa-brands fa-js"></i>
+            <br><a target="_blank" href="https://www.kutdev.online/geschaft/">Link</a>
+        </div>
+        <div id="card">
+            <h2>Okyanus News Site</h2>
+            <p class="alert">Not published but you can inspect photos</p>
+            <i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3-alt"></i><i class="fa-brands fa-js"></i><i class="fa-brands fa-php"></i><i class="fa-solid fa-database"></i>
+                <div id="portPhotos">
+                    <img class="portPhoto" src="images/okyanusPhoto1.png">
+                    <img class="portPhoto" src="images/okyanusPhoto2.png">
+                    <img class="portPhoto" src="images/okyanusPhoto3.png">
+                    <img class="portPhoto" src="images/okyanusPhoto4.png">
+                </div>
+        </div>
+     </div>
+    <div id="footer">
+        <img class="footer-img" src="images/kutdevLogo.png"> <h2>KutDev</h2>
+        <ul id="footerMenu">
+         <li><a href="https://kutdev.online">Main Page</a></li>
+         <li><a href="About/">About Me</a></li>
+         <li><a href="Portfolio/">Portfolio</a></li>
+         <li><a target="_blank" href="https://www.instagram.com/kutdevfrontend/">KutDev on Instagram</a></li>
+         <li><a target="_blank" href="https://bionluk.com/kutdev">KutDev on Bionluk</a></li>
+        </ul>
+        <p class="rightHolder">All rights reserved <span id="rightYear"></span> @KutDev</p>
+     </div>
+     
+     <script>
+         var today = new Date();
+         var year = today.getFullYear();
+         document.getElementById("rightYear").textContent = year;
+     </script>
+</body>
+</html>

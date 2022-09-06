@@ -1,0 +1,73 @@
+<!--
+    Welcome to the Wonderland Of Web 
+    This Is KutDev Speaking,
+    Have a great and wonderful day 😉 
+    All rights of this site relates to KutDev
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="theme-color" content="#5DFFAD">
+    <meta name="copyright" content="All Rights Reserved To KutDev & Mehmet Kuzey Demirtas">
+    <meta name="abstract" content="Portfolio & Information Site Of KutDev">
+    <meta name="author" content="KutDev">
+    <meta name="keywords" content="kutdev, KutDev, developer, kutzey, kutzey developer, kutDEV, Front-End, front-end, portfolio, developer portfolio, cyber security, game developer, web dev, web developer">
+    <meta name="description" content="Hi, I am Web Developer. KutDev">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>KutDev</title>
+</head>
+<body>
+    <section id="top-menu">
+        <div id="logo-box">
+            <img src="images/kutdevLogo.png" alt="logo"><p>KutDev</p>
+        </div>
+    </section>
+    <div id="header">
+        <p class="upperHeader">Hi, I am </p>
+        <h1 class="header">Web  <span>Developer</span></h1>
+        <ul id="siteMenu">
+            <li><a href="About/">About Me</a></li>
+            <li><a href="Portfolio/">Portfolio</a></li>
+        </ul>
+    </div>
+    
+    <div id="cards">
+        <div id="card">
+            <h3>Web</h3>
+            <p>I have 2.5 year of knowledge on web development. I know HTML, CSS, PHP, JavaScript and MySQL technologies. You can have more information from <a href="About/">About Me</a> page.</p>
+        </div>
+        <div id="card" class="card-right">
+            <h3>Cyber Security</h3>
+            <p>I have middle knowledge on web security, network security and web pentesting.</p>
+        </div>
+        <div id="card">
+            <h3>Freelance</h3>
+            <p>I am working freelance. If you need anything you can contact with me easily from <a href="mailto: kutdev0@gmail.com">This Link</a> or via this mail address kutdev0@gmail.com</p>
+        </div>
+    </div><br>
+    <div id="footer">
+       <img class="footer-img" src="images/kutdevLogo.png"> <h2>KutDev</h2>
+       <ul id="footerMenu">
+        <li><a href="https://kutdev.online">Main Page</a></li>
+        <li><a href="About/">About Me</a></li>
+        <li><a href="Portfolio/">Portfolio</a></li>
+        <li><a target="_blank" href="https://www.instagram.com/kutdevfrontend/">KutDev on Instagram</a></li>
+        <li><a target="_blank" href="https://bionluk.com/kutdev">KutDev on Bionluk</a></li>
+       </ul>
+       <p class="rightHolder">All rights reserved <span id="rightYear"></span> @KutDev</p>
+    </div>
+    <script>
+        var today = new Date();
+        var year = today.getFullYear();
+        document.getElementById("rightYear").textContent = year;
+    </script>
+</body>
+</html>

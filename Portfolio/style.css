@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #272727;
+}
+#top-menu{
+    max-width: 100%;
+    background-color: #272727;
+    border: 1px solid #F2F2F2;
+    border-radius: 0 0 20px 20px;
+}
+#logo-box {
+    text-align: center;
+    color: #F2F2F2;
+}
+#logo-box h1{
+    font-size: 40px;
+}
+#logo-box p{
+    font-size: 20px;
+}
+#header{
+    text-align: center;
+    color: #F2F2F2;
+    margin-top: 40px;
+}
+#header .header{
+    font-size: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#header .header span{
+    animation: headerAnim 4s infinite;
+    border-radius: 10px;
+}
+@keyframes headerAnim{
+    0%{background-color: #272727; color: #5DFFAD;}
+    50%{background-color: #5DFFAD; color: #272727;}
+    100%{background-color: #272727; color: #5DFFAD;}
+}
+#siteMenu{
+    list-style-type: none;
+    margin-top: 20px;
+}
+#siteMenu li{
+    list-style-type: none;
+    display: inline;
+}
+#siteMenu li a{
+    color: #BFB8B4;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 19px;
+}
+#siteMenu li a:hover{
+    text-decoration: 3px #5DFFAD underline;
+}
+#footer{
+    background-color: #1f1e1e;
+    padding: 10px;
+    margin-top: 100px;
+    max-width: 100%;
+    color: #F2F2F2;
+}
+.footer-img{
+    width: 100px;
+}
+#footer h2{
+    margin-left: 20px;
+}
+#footerMenu{
+    margin-left: 20px;
+}
+#footerMenu li{
+    list-style-type: none;
+}
+#footerMenu li a{
+    color: #BFB8B4
+}
+.rightHolder{
+    text-align: center;
+}
+#portfolio{
+    text-align: center;
+    margin-top: 70px;
+}
+#portfolio h2{
+    color: #F2F2F2;
+    font-size: 30px;
+}
+#portfolio i{
+    color: #BFB8B4;
+    margin: 10px;
+    font-size: 30px;
+}
+#portfolio a{
+    color: #F2F2F2;
+    display: inline-block;
+}
+#card{
+    margin-top: 60px;
+}
+.alert{
+    color: red;
+    font-weight: 600;
+    text-align: center;
+}
+.portPhoto{
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 5px solid #5DFFAD;
+    border-radius: 5px;
+    height: 200px;
+}
